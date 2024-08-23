@@ -1,0 +1,85 @@
+/* PRYNCE */
+/* icons offline cdnj */
+@import url('../icons/remixicon.css');
+/* custom css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #4285f4;
+}
+.wrapper{
+    width: 450px;
+    overflow: hidden;
+    padding: 28px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,.06);
+}
+.wrapper .pass-field{
+    height: 45px;
+    width: 100%;
+    position: relative;
+}
+.wrapper .pass-field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 17px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.wrapper .pass-field input:focus{
+    padding: 0 16px;
+    border: 1px solid #4285f4;
+}
+.wrapper .pass-field i{
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #999;
+    cursor: pointer;
+}
+.content{
+    margin: 20px 0 10px;
+}
+.content p{
+    color: #333;
+    font-size: 1rem;
+}
+.content .requirement{
+    margin-top: 20px;
+}
+.requirement li{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.requirement li i{
+    width: 20px;
+    color: #aaa;
+    font-size: 0.5rem;
+}
+.requirement li.valid i{
+    color: #4285f4;
+    font-size: 1rem;
+}
+.requirement li span{
+    margin-left: 12px;
+    color: #333;
+}
+.requirement li.valid span{
+    color: #999;
+}
